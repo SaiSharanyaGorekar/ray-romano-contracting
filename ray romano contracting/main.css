@@ -1,0 +1,272 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "Source Sans Pro",sans-serif;
+}
+nav{
+    /* border: 2px solid; */
+    height: 150px;
+
+}
+#sub-nav{
+    /* border: 2px solid; */
+    height: inherit;
+    width:85%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#navleft{
+list-style: none;
+}
+#navright{
+    /* border: 2px solid; */
+    width: 600px;
+    list-style: none;
+    display:inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px;
+    font-weight: bold;
+}
+#navright>li:first-child{
+color: gray;
+}
+#navright>li:first-child:hover{
+    color: black;
+}
+#navright li:hover{
+    color: gray;
+    cursor: pointer;
+}
+#section1{
+    /* border: 2px solid; */
+    height: 600px;
+    background-image: url("./assets/Ray+Romano+Loft+renovation+nyc+brooklyn+hamptons+luxury+construction.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    /* width: 100%; */
+   background-attachment: fixed;
+}
+#section1>h1{
+color: black;
+background-color: rgb(239, 235, 235);
+position: sticky;
+
+}
+#section1>span>i{
+    height: 280px;
+    font-size: 50px;
+    font-weight: lighter;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    
+
+}
+#section1>span>i:hover{
+
+}
+#section1>h1{
+    width: 730px;
+    font-weight: 400;
+    font-size: 2.8em;
+    display: inline-block;
+    background-color: rgba(255,255,255,.6);
+    margin-top: 150px;
+    margin-left: 100px;
+    padding: 10px;
+    /* font-family: futura-pt; */
+}
+#section1>p{
+    line-height: 1.5;
+    width: 730px;
+    height: 100px;
+    padding: 10px;
+    font-weight: lighter;
+    font-size: 18px;
+    display: inline-block;
+    background-color: rgba(255,255,255,.6);
+    margin-left: 100px;
+}
+#section2{
+width: 75%;
+margin: auto;
+}
+#section2>h1{
+font-size: 30px;
+font-weight: lighter;
+}
+#section2>p{
+    font-size: 15px;
+    line-height: 1.8;
+}
+#section3{
+   
+    height: 600px;
+    background-image: url("./assets/Ray+Romano+Contracting+combination+renovation+luxury+contemporary+Upper+East+Side+NYC+Hamptons+Brooklyn+NJ.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+   background-attachment: fixed;
+}
+#section3>h1{
+    width: 730px;
+    font-weight: lighter;
+    font-size: 45px;
+    display: inline-block;
+    background-color: rgba(255,255,255,.6);
+    margin-top: 150px;
+    margin-left: 100px;
+    padding: 10px;
+}
+#section4{
+    width: 75%;
+    margin: auto;
+    }
+    #section4>h1{
+    font-size: 20px;
+    font-weight: lighter;
+    }
+    #section4>p{
+        font-size: 14px;
+        line-height: 1.8;
+    }
+    #section5{
+        /* border: 2px solid; */
+        height: 600px;
+        background-image: url("./assets/Ray+Romano+Hamptons+Sag+Harbor+renovation.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        /* width: 100%; */
+        background-attachment: fixed;
+    }
+    #section5>h1{
+        width: 250px;
+        font-weight: lighter;
+        font-size: 45px;
+        display: inline-block;
+        background-color: rgba(255,255,255,.6);
+        margin-top: 150px;
+        margin-left: 100px;
+        padding: 10px;
+    }
+    #section6{
+        width: 75%;
+        margin: auto;
+        }
+        #section6>h1{
+        font-size: 20px;
+        font-weight: lighter;
+        }
+        #section6>p{
+            font-size: 14px;
+            line-height: 1.8;
+        }
+#section7{
+     /* border: 2px solid; */
+     height: 600px;
+     background-image: url("./assets/1040.jpeg");
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: center center;
+     background-attachment: fixed;
+}        
+#section7>h1{
+    width: 350px;
+    font-weight: lighter;
+    font-size: 45px;
+    display: inline-block;
+    background-color: rgba(255,255,255,.6);
+    margin-top: 150px;
+    margin-left: 100px;
+    padding: 10px;
+}
+#section8{
+    width: 75%;
+    margin: auto;
+    }
+    #section8>h1{
+    font-size: 20px;
+    font-weight: lighter;
+    }
+    #section8>p{
+        font-size: 13px;
+        line-height: 1.8;
+    }
+    #section8>h1>i{
+        font-weight: 600;
+    }
+#section9{
+     /* border: 2px solid; */
+     height: 600px;
+     background-image: url("./assets/Custom+Closet+Ray+Rompano+Contracting+NYC+Brooklyn+Upper+east+Side+NYC+renovation.jpg");
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: center center;
+     /* width: 100%; */
+    background-attachment: fixed;
+}        
+#section9>h1{
+    width: 230px;
+    font-weight: lighter;
+    font-size: 45px;
+    display: inline-block;
+    background-color: rgba(255,255,255,.6);
+    margin-top: 150px;
+    margin-left: 100px;
+    padding: 10px;
+}
+#section10{
+    /* border: 2px solid; */
+    width: 90%;
+    margin: auto;
+    list-style: none;
+    height: 700px;
+    padding-left:120px ;
+
+}
+#section10>ol{
+    list-style: none;
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+}
+#section10>ol>li>img{
+    width: 300px;
+    height: 200px;
+   padding-left: 30px;
+   padding-top: 30px;
+
+}
+figcaption{
+    font-size: 12px;
+    font-weight: bold;
+    color: gray;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+footer{
+height: 150px;
+width: 100%;
+margin: auto;
+background-color: black;
+display: flex;
+justify-content: space-around;
+align-items: center;
+
+}
+footer>ol{
+    font-size: 16px;
+    list-style: none;
+    color: white;
+}
+footer>#icons{
+    font-size: 20px;
+    display: inline-flex;
+}
